@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Pedi2</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="aceptar">btaceptar</string>
+    <string name="salir">btsalir</string>
+    <string name="password">password</string>
+    <string name="ingresa_el_password">text password</string>
+    <string name="usuario">tvusuario</string>
+    <string name="contrase_a">tv contra</string>
+    <string name="bienvenidos">tvbienveni</string>
+    <string name="config">CONFIGURATION</string>
+    <string name="tvrxplica">A continuación veras dos botones para gregar Clientes y Productos. Esto se debe realizar solo cuando se instala por primera vez y se debe tener los archivos de Excel configurados de la forma correcta.</string>
+    <string name="btagregar">Agregar Clientes</string>
+    <string name="btagregarcli">Agregar Products</string>
+    <string name="btsalir">Salir</string>
+    <string name="btseguir">Seguir</string>
+    <string name="fechaentrega">Fecha Entrega</string>
+    <string name="fecha">Fecha:</string>
+    <string name="Contado">Contado</string>
+    <string name="Credito">Crédito</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="buscar_por_descripci_n">Buscar por descripción</string>
+    <string name="agregar">Agregar</string>
+    <string name="agregar1">Agregar</string>
+    <string name="cantidad1">Cantidad</string>
+    <string name="buscar_producto">Buscar producto</string>
+    <string name="pedidos">PEDIDOS</string>
+    <string name="cliente">Cliente:</string>
+    <string name="agregar_productos">Agregar Productos</string>
+    <string name="se_env_a">Se envía</string>
+    <string name="encomienda">Encomienda</string>
+
+
+</resources>

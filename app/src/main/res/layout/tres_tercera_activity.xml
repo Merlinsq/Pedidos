@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tres_TerceraPantalla">
+
+
+    <TextView
+        android:id="@+id/tVpedido"
+        android:layout_width="187dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/pedidos"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tVCliente"
+        android:layout_width="70dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="24dp"
+
+        android:text="@string/cliente"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tVpedido" />
+
+
+    <EditText
+        android:id="@+id/eTCliente"
+        android:layout_width="228dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="24dp"
+        android:clickable="true"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:text="Nombre del cliente"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tVCliente"
+        app:layout_constraintTop_toBottomOf="@+id/tVpedido" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="70dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/fecha"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tVCliente" />
+
+
+    <TextView
+        android:id="@+id/tVfecha"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:text="Fecha de hoy"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/eTCliente" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/fechaentrega"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tVfecha"
+        app:layout_constraintTop_toBottomOf="@+id/eTCliente" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="98dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="7dp"
+        android:clickable="true"
+        android:inputType="date"
+        android:padding="8dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/eTCliente" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+
+        android:text="Dirección:"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+    <EditText
+        android:id="@+id/eTCliente2"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+
+        android:clickable="true"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:text="Agregar Dir. Entrega"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="LabelFor" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+
+        android:text="@string/encomienda"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:text="@string/se_env_a"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox4"
+        app:layout_constraintTop_toBottomOf="@+id/eTCliente2"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="77dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:text="@string/Contado"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox5"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:text="@string/Credito"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/eTCliente2" />
+
+    <Button
+        android:id="@+id/AgregarPR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:clickable="true"
+        android:text="@string/agregar_productos"
+        android:textColor="@color/design_default_color_background"
+        android:textColorLink="#F8F5F5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5"
+        tools:ignore="MissingConstraints,UnknownId" />
+
+    <ListView
+        android:id="@+id/listViewProductos"
+        android:layout_width="220dp"
+        android:layout_height="135dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AgregarPR"
+        app:layout_constraintVertical_bias="0.918"
+        tools:visibility="invisible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
